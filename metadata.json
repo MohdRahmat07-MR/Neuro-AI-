@@ -1,0 +1,6 @@
+{
+  "name": "Neuro AI",
+  "description": "An ultra-modern futuristic AI platform featuring an AI Chatbot, Image Generator, and Student Helper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

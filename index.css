@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #00f0ff;
+  --color-brand-purple: #8a2be2;
+  --color-brand-dark: #050505;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .text-glow-blue {
+    text-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+  }
+  .text-glow-purple {
+    text-shadow: 0 0 20px rgba(138, 43, 226, 0.6);
+  }
+  .bg-glass {
+    background: rgba(10, 10, 15, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .bg-glass-card {
+    background: linear-gradient(145deg, rgba(20,20,25,0.6) 0%, rgba(10,10,15,0.4) 100%);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
