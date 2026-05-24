@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Chatbot from "./components/Chatbot";
-import StudentHelper from "./components/StudentHelper";
-import BackgroundParticles from "./components/BackgroundParticles";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Chatbot from "./Chatbot";
+import StudentHelper from "./StudentHelper";
+import BackgroundParticles from "./BackgroundParticles";
 import { Atom, Heart } from "lucide-react";
 
 export default function App() {
